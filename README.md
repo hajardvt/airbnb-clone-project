@@ -1,4 +1,5 @@
-🏡 Airbnb Clone Project (StayEase)
+#🏡 Airbnb Clone Project (StayEase)
+
 📌 Project Overview
 
 The Airbnb Clone Project (StayEase) is a full-stack web application that replicates the functionality of the Airbnb platform. It allows users to browse properties, view details, and complete bookings.
