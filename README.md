@@ -1,11 +1,11 @@
 # 🏡 StayEase – Airbnb Clone Project  
 
 ## 📌 Project Overview  
-StayEase is a **full-stack Airbnb clone** that enables users to:  
+StayEase is a **full-stack Airbnb clone** that allows users to:  
 - Browse and filter property listings  
-- View property details with photos and pricing  
-- Make bookings with secure payments  
-- Manage reservations and reviews  
+- View detailed property information  
+- Make secure bookings and payments  
+- Manage bookings, reviews, and favorites  
 - Admins can manage users, properties, and transactions  
 
 ### Project Goals  
@@ -17,39 +17,110 @@ StayEase is a **full-stack Airbnb clone** that enables users to:
 ---
 
 ## 🛠 Technology Stack  
-- **Frontend (React, HTML, CSS, JavaScript):** Builds a responsive, interactive UI  
-- **Backend (Django):** Handles APIs, business logic, and database interactions  
-- **Database (PostgreSQL/MySQL):** Stores structured data like users, properties, bookings, reviews  
-- **API (RESTful / GraphQL):** Enables communication between frontend and backend  
-- **Version Control (Git + GitHub):** Manages code collaboration and history  
-- **Design Tool (Figma):** For UI/UX wireframes and mockups  
-- **DevOps (Docker, GitHub Actions):** Containerization and automation for CI/CD  
-- **Deployment (AWS/GCP/DigitalOcean):** Cloud hosting for scalability and availability  
+
+### Frontend  
+- **HTML, CSS, JavaScript** – Base structure, styling, and interactivity  
+- **React** – Component-based architecture, responsive UI/UX  
+- **Figma** – Wireframes and UI design  
+
+### Backend  
+- **Django (Python)** – Business logic and API development  
+- **PostgreSQL / MySQL** – Relational database to store users, properties, and bookings  
+- **RESTful API / GraphQL** – Communication between frontend and backend  
+- **JWT Authentication** – Secure login and role-based access  
+
+### DevOps  
+- **Git + GitHub** – Version control and collaboration  
+- **Docker** – Containerization  
+- **GitHub Actions** – CI/CD automation  
+- **NGINX + Gunicorn** – Deployment on cloud platforms (AWS/GCP/DigitalOcean)  
 
 ---
 
-## 🌟 Feature Breakdown  
-- **User Authentication & Authorization** – Secure login/signup, role-based access  
-- **Property Management** – Add, update, and manage property listings  
-- **Search & Filtering** – Find properties by location, price, rating, etc.  
-- **Booking System** – Reserve properties with start & end dates  
-- **Payment Integration** – Secure checkout with transaction tracking  
-- **Review System** – Leave ratings and feedback for properties  
-- **User Dashboard** – Manage bookings, reviews, and favorites  
-- **Admin Panel** – Oversee users, properties, and system data  
+## 🎨 UI/UX Design Planning  
+
+### Design Goals  
+- Create an intuitive booking flow with minimal steps  
+- Maintain visual consistency across all pages  
+- Ensure fast loading times with optimized assets  
+- Prioritize mobile-first responsiveness  
+
+### Key Features  
+- Property search and filtering  
+- Detailed property viewing (photos, description, pricing, reviews)  
+- Secure checkout process  
+- User authentication and account management  
+
+### Primary Pages  
+
+| Page                  | Description                                                   |  
+|-----------------------|---------------------------------------------------------------|  
+| **Property Listing**  | Grid display of available properties with filtering options   |  
+| **Listing Detail**    | Full property details with photo gallery and booking form     |  
+| **Checkout**          | Streamlined payment and booking confirmation flow             |  
+
+### Importance of User-Friendly Design  
+A user-friendly design improves the booking experience, reduces friction, increases conversions, and ensures customer satisfaction.  
+
+### Figma Design Specifications  
+
+**Color Styles:**  
+- Primary: `#FF5A5F`  
+- Secondary: `#008489`  
+- Background: `#FFFFFF`  
+- Text: `#222222`  
+- Secondary Text: `#717171`  
+
+**Typography:**  
+- Primary Font: Circular  
+- Body: Medium (500), 16px  
+- Headings: Bold (700), 24–32px  
+- Secondary Text: Book (400), 14px  
+
+**Why important?**  
+Defining colors and typography ensures UI consistency, makes collaboration easier, and improves developer handoff.  
 
 ---
 
-## 👥 Team Roles  
-- **Project Manager** – Oversees planning, deadlines, and deliverables  
-- **Frontend Developers** – Create UI components, ensure mobile responsiveness  
-- **Backend Developers** – Develop APIs, database logic, business rules  
-- **Database Administrator** – Designs schema, ensures data integrity and optimization  
-- **Designers** – Build wireframes, maintain design system  
-- **QA Testers** – Test cases, bug tracking  
-- **DevOps Engineer** – Implements CI/CD pipeline, handles deployment  
-- **Product Owner** – Defines requirements, prioritizes backlog  
-- **Scrum Master** – Facilitates Agile processes, removes blockers  
+## 👥 Project Roles and Responsibilities / Team Roles  
+
+| Role                 | Responsibilities |  
+|----------------------|------------------|  
+| **Project Manager**  | Oversees planning, deliverables, and deadlines |  
+| **Frontend Developers** | Build reusable React components, implement responsive UI |  
+| **Backend Developers** | Build APIs, manage business logic, and connect database |  
+| **Designers**        | Create Figma mockups, maintain design system |  
+| **QA/Testers**       | Write and run test cases, report issues |  
+| **DevOps Engineers** | Manage CI/CD pipeline, containerization, and deployment |  
+| **Database Administrator** | Ensure schema design, optimization, and data integrity |  
+| **Product Owner**    | Defines requirements, prioritizes backlog |  
+| **Scrum Master**     | Facilitates Agile process, resolves blockers |  
+
+---
+
+## 🧩 UI Component Patterns  
+
+### Planned Components  
+
+**Navbar**  
+- Logo  
+- Search bar  
+- User navigation  
+- Responsive menu  
+
+**Property Card**  
+- Property image  
+- Price, location, and rating  
+- Favorite button  
+- Responsive layout  
+
+**Footer**  
+- Site links  
+- Company information  
+- Social media links  
+- Copyright  
+
+Each component is designed for **reusability and consistency** across the application.  
 
 ---
 
